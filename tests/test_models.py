@@ -96,5 +96,4 @@ def test_get_single_event_false(app):
         event_id = 19999999999999999
         event = db.session.get(Event, event_id)
 
-#        assert event is None
-        assert event is 3
+        assert event is None
